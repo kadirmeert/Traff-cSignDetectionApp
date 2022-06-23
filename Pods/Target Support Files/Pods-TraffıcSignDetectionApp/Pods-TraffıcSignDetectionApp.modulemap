@@ -1,0 +1,6 @@
+framework module Pods_Traff_cSignDetectionApp {
+  umbrella header "Pods-TraffıcSignDetectionApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

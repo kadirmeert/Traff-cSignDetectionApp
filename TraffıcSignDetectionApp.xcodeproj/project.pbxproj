@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1CF7EF282C4EC900C1C60B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1CF7EE282C4EC900C1C60B /* Extension.swift */; };
+		1F1CF7F2282D79BC00C1C60B /* ImageTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1CF7F1282D79BC00C1C60B /* ImageTest.storyboard */; };
+		1F1CF7F5282D79E200C1C60B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1CF7F4282D79E200C1C60B /* ImageViewController.swift */; };
+		1F2EEFCB282AF7EB008A5255 /* TrafficSIGNv3 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1F2EEFCA282AF7EB008A5255 /* TrafficSIGNv3 1.mlmodel */; };
+		1F5B8FDA283D77A80065E7F5 /* concept.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B8FD5283D77A70065E7F5 /* concept.json */; };
+		1F5B8FDB283D77A80065E7F5 /* two-way.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B8FD6283D77A80065E7F5 /* two-way.json */; };
+		1F5B8FDC283D77A80065E7F5 /* brick.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B8FD7283D77A80065E7F5 /* brick.json */; };
+		1F5B8FDD283D77A80065E7F5 /* pedestrian.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B8FD8283D77A80065E7F5 /* pedestrian.json */; };
+		1F5B8FDE283D77A80065E7F5 /* downhill.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B8FD9283D77A80065E7F5 /* downhill.json */; };
+		1F8B250728435AF1007A5B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B250628435AF1007A5B5D /* Assets.xcassets */; };
+		1F97D7CC282478120044F01C /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F97D7CB282478120044F01C /* Splash.storyboard */; };
+		1F97D7D0282478A00044F01C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F97D7CF282478A00044F01C /* SplashViewController.swift */; };
+		1FA9F2DD282BF15B008163A6 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA9F2DC282BF15B008163A6 /* Lottie.framework */; };
+		1FA9F2E2282BF23D008163A6 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9F2E1282BF23D008163A6 /* LottieViewController.swift */; };
+		1FA9F2E4282BF260008163A6 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA9F2E3282BF260008163A6 /* Lottie.storyboard */; };
+		1FA9F2E7282C34C2008163A6 /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9F2E6282C34C1008163A6 /* AnimationModel.swift */; };
+		1FA9F2EA282C35D5008163A6 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9F2E9282C35D5008163A6 /* MainCollectionViewCell.swift */; };
+		1FBB175F283956AE00EA0EFE /* TrafficSIGNv3 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB175E283956AE00EA0EFE /* TrafficSIGNv3 2.mlmodel */; };
 		1FE9718D2815F7BA0001BA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9718C2815F7BA0001BA1B /* AppDelegate.swift */; };
 		1FE9718F2815F7BA0001BA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9718E2815F7BA0001BA1B /* SceneDelegate.swift */; };
-		1FE971912815F7BA0001BA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE971902815F7BA0001BA1B /* ViewController.swift */; };
+		1FE971912815F7BA0001BA1B /* AVcaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE971902815F7BA0001BA1B /* AVcaptureViewController.swift */; };
 		1FE971942815F7BA0001BA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE971922815F7BA0001BA1B /* Main.storyboard */; };
-		1FE971962815F7C10001BA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE971952815F7C10001BA1B /* Assets.xcassets */; };
 		1FE971992815F7C10001BA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE971972815F7C10001BA1B /* LaunchScreen.storyboard */; };
+		1FE971A12815F88B0001BA1B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE971A02815F88B0001BA1B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1CF7EE282C4EC900C1C60B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1F1CF7F1282D79BC00C1C60B /* ImageTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageTest.storyboard; sourceTree = "<group>"; };
+		1F1CF7F4282D79E200C1C60B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1F2EEFCA282AF7EB008A5255 /* TrafficSIGNv3 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "TrafficSIGNv3 1.mlmodel"; path = "../../../TrafficSIGNv3 1.mlmodel"; sourceTree = "<group>"; };
+		1F5B8FD5283D77A70065E7F5 /* concept.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = concept.json; sourceTree = "<group>"; };
+		1F5B8FD6283D77A80065E7F5 /* two-way.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "two-way.json"; sourceTree = "<group>"; };
+		1F5B8FD7283D77A80065E7F5 /* brick.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brick.json; sourceTree = "<group>"; };
+		1F5B8FD8283D77A80065E7F5 /* pedestrian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pedestrian.json; sourceTree = "<group>"; };
+		1F5B8FD9283D77A80065E7F5 /* downhill.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = downhill.json; sourceTree = "<group>"; };
+		1F8B250628435AF1007A5B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F97D7CB282478120044F01C /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		1F97D7CF282478A00044F01C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1FA9F2D5282BF028008163A6 /* Pods_TraffıcSignDetectionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_TraffıcSignDetectionApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA9F2DC282BF15B008163A6 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA9F2E1282BF23D008163A6 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		1FA9F2E3282BF260008163A6 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
+		1FA9F2E6282C34C1008163A6 /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		1FA9F2E9282C35D5008163A6 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		1FBB175E283956AE00EA0EFE /* TrafficSIGNv3 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "TrafficSIGNv3 2.mlmodel"; sourceTree = "<group>"; };
 		1FE971892815F7BA0001BA1B /* TraffıcSignDetectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TraffıcSignDetectionApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE9718C2815F7BA0001BA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE9718E2815F7BA0001BA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FE971902815F7BA0001BA1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FE971902815F7BA0001BA1B /* AVcaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVcaptureViewController.swift; sourceTree = "<group>"; };
 		1FE971932815F7BA0001BA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1FE971952815F7C10001BA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE971982815F7C10001BA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FE9719A2815F7C10001BA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE971A02815F88B0001BA1B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		40F79B232DB812D359E6A7BE /* Pods-TraffıcSignDetectionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraffıcSignDetectionApp.release.xcconfig"; path = "Target Support Files/Pods-TraffıcSignDetectionApp/Pods-TraffıcSignDetectionApp.release.xcconfig"; sourceTree = "<group>"; };
+		854B1A44979E1C553BA4D3A1 /* Pods-TraffıcSignDetectionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TraffıcSignDetectionApp.debug.xcconfig"; path = "Target Support Files/Pods-TraffıcSignDetectionApp/Pods-TraffıcSignDetectionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BB868CC054365A21DA8FFAAB /* Pods_Traff_cSignDetectionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traff_cSignDetectionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,123 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA9F2DD282BF15B008163A6 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1CF7D0282C417700C1C60B /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B8FD7283D77A80065E7F5 /* brick.json */,
+				1F5B8FD5283D77A70065E7F5 /* concept.json */,
+				1F5B8FD9283D77A80065E7F5 /* downhill.json */,
+				1F5B8FD8283D77A80065E7F5 /* pedestrian.json */,
+				1F5B8FD6283D77A80065E7F5 /* two-way.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		1F1CF7ED282C4EB500C1C60B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1F1CF7EE282C4EC900C1C60B /* Extension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1F1CF7F0282D799D00C1C60B /* ImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				1F1CF7F3282D79C100C1C60B /* ViewController */,
+				1F1CF7F1282D79BC00C1C60B /* ImageTest.storyboard */,
+			);
+			path = ImageTest;
+			sourceTree = "<group>";
+		};
+		1F1CF7F3282D79C100C1C60B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F1CF7F4282D79E200C1C60B /* ImageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1F97D7CD282478600044F01C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				1F97D7CE282478870044F01C /* ViewController */,
+				1F97D7CB282478120044F01C /* Splash.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		1F97D7CE282478870044F01C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F97D7CF282478A00044F01C /* SplashViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1F97D7D1282478A80044F01C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1FBB175E283956AE00EA0EFE /* TrafficSIGNv3 2.mlmodel */,
+				1F2EEFCA282AF7EB008A5255 /* TrafficSIGNv3 1.mlmodel */,
+				1FE971902815F7BA0001BA1B /* AVcaptureViewController.swift */,
+				1FE971A02815F88B0001BA1B /* MainViewController.swift */,
+				1FE971922815F7BA0001BA1B /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1FA9F2D8282BF0D4008163A6 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9F2D5282BF028008163A6 /* Pods_TraffıcSignDetectionApp.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		1FA9F2E0282BF222008163A6 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				1F1CF7D0282C417700C1C60B /* Lotties */,
+				1FA9F2E8282C35B7008163A6 /* Views */,
+				1FA9F2E5282C34AF008163A6 /* Model */,
+				1FA9F2E1282BF23D008163A6 /* LottieViewController.swift */,
+				1FA9F2E3282BF260008163A6 /* Lottie.storyboard */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		1FA9F2E5282C34AF008163A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9F2E6282C34C1008163A6 /* AnimationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FA9F2E8282C35B7008163A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9F2E9282C35D5008163A6 /* MainCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1FE971802815F7BA0001BA1B = {
 			isa = PBXGroup;
 			children = (
 				1FE9718B2815F7BA0001BA1B /* TraffıcSignDetectionApp */,
 				1FE9718A2815F7BA0001BA1B /* Products */,
+				55EF97BDB67A15B71067BB96 /* Pods */,
+				A7942BE74CA0D1882E034E2E /* Frameworks */,
+				1FA9F2D8282BF0D4008163A6 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +202,36 @@
 		1FE9718B2815F7BA0001BA1B /* TraffıcSignDetectionApp */ = {
 			isa = PBXGroup;
 			children = (
+				1F1CF7F0282D799D00C1C60B /* ImageTest */,
+				1F1CF7ED282C4EB500C1C60B /* Shared */,
+				1FA9F2E0282BF222008163A6 /* Lottie */,
+				1F97D7CD282478600044F01C /* Splash */,
+				1F97D7D1282478A80044F01C /* Main */,
 				1FE9718C2815F7BA0001BA1B /* AppDelegate.swift */,
 				1FE9718E2815F7BA0001BA1B /* SceneDelegate.swift */,
-				1FE971902815F7BA0001BA1B /* ViewController.swift */,
-				1FE971922815F7BA0001BA1B /* Main.storyboard */,
-				1FE971952815F7C10001BA1B /* Assets.xcassets */,
 				1FE971972815F7C10001BA1B /* LaunchScreen.storyboard */,
+				1F8B250628435AF1007A5B5D /* Assets.xcassets */,
 				1FE9719A2815F7C10001BA1B /* Info.plist */,
 			);
 			path = "TraffıcSignDetectionApp";
+			sourceTree = "<group>";
+		};
+		55EF97BDB67A15B71067BB96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				854B1A44979E1C553BA4D3A1 /* Pods-TraffıcSignDetectionApp.debug.xcconfig */,
+				40F79B232DB812D359E6A7BE /* Pods-TraffıcSignDetectionApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7942BE74CA0D1882E034E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA9F2DC282BF15B008163A6 /* Lottie.framework */,
+				BB868CC054365A21DA8FFAAB /* Pods_Traff_cSignDetectionApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FE9719D2815F7C10001BA1B /* Build configuration list for PBXNativeTarget "TraffıcSignDetectionApp" */;
 			buildPhases = (
+				DCF39604E37FDC76129E2319 /* [CP] Check Pods Manifest.lock */,
 				1FE971852815F7BA0001BA1B /* Sources */,
 				1FE971862815F7BA0001BA1B /* Frameworks */,
 				1FE971872815F7BA0001BA1B /* Resources */,
+				BA5895555726C26377783CA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +294,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5B8FDC283D77A80065E7F5 /* brick.json in Resources */,
+				1F1CF7F2282D79BC00C1C60B /* ImageTest.storyboard in Resources */,
+				1F8B250728435AF1007A5B5D /* Assets.xcassets in Resources */,
+				1F5B8FDA283D77A80065E7F5 /* concept.json in Resources */,
 				1FE971992815F7C10001BA1B /* LaunchScreen.storyboard in Resources */,
-				1FE971962815F7C10001BA1B /* Assets.xcassets in Resources */,
+				1F5B8FDE283D77A80065E7F5 /* downhill.json in Resources */,
+				1F5B8FDD283D77A80065E7F5 /* pedestrian.json in Resources */,
+				1F5B8FDB283D77A80065E7F5 /* two-way.json in Resources */,
 				1FE971942815F7BA0001BA1B /* Main.storyboard in Resources */,
+				1FA9F2E4282BF260008163A6 /* Lottie.storyboard in Resources */,
+				1F97D7CC282478120044F01C /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA5895555726C26377783CA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraffıcSignDetectionApp/Pods-TraffıcSignDetectionApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TraffıcSignDetectionApp/Pods-TraffıcSignDetectionApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TraffıcSignDetectionApp/Pods-TraffıcSignDetectionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF39604E37FDC76129E2319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TraffıcSignDetectionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FE971852815F7BA0001BA1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FE971912815F7BA0001BA1B /* ViewController.swift in Sources */,
+				1FA9F2E7282C34C2008163A6 /* AnimationModel.swift in Sources */,
+				1FA9F2EA282C35D5008163A6 /* MainCollectionViewCell.swift in Sources */,
+				1FE971912815F7BA0001BA1B /* AVcaptureViewController.swift in Sources */,
+				1F2EEFCB282AF7EB008A5255 /* TrafficSIGNv3 1.mlmodel in Sources */,
 				1FE9718D2815F7BA0001BA1B /* AppDelegate.swift in Sources */,
+				1F1CF7EF282C4EC900C1C60B /* Extension.swift in Sources */,
+				1FA9F2E2282BF23D008163A6 /* LottieViewController.swift in Sources */,
+				1F97D7D0282478A00044F01C /* SplashViewController.swift in Sources */,
 				1FE9718F2815F7BA0001BA1B /* SceneDelegate.swift in Sources */,
+				1F1CF7F5282D79E200C1C60B /* ImageViewController.swift in Sources */,
+				1FBB175F283956AE00EA0EFE /* TrafficSIGNv3 2.mlmodel in Sources */,
+				1FE971A12815F88B0001BA1B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +512,7 @@
 		};
 		1FE9719E2815F7C10001BA1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854B1A44979E1C553BA4D3A1 /* Pods-TraffıcSignDetectionApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,17 +521,19 @@
 				DEVELOPMENT_TEAM = Q525VM2ADX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TraffıcSignDetectionApp/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ı need use camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yildizkadir.Traff-cSignDetectionApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yildizkadir.TrafficSignDetectionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,6 +543,7 @@
 		};
 		1FE9719F2815F7C10001BA1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F79B232DB812D359E6A7BE /* Pods-TraffıcSignDetectionApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,17 +552,19 @@
 				DEVELOPMENT_TEAM = Q525VM2ADX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TraffıcSignDetectionApp/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ı need use camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yildizkadir.Traff-cSignDetectionApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yildizkadir.TrafficSignDetectionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

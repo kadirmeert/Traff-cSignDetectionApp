@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hq1-XF-OaA">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image View Controller-->
+        <scene sceneID="eFB-cN-YbU">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="hq1-XF-OaA" customClass="ImageViewController" customModule="TraffıcSignDetectionApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Zu-UK-p92">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GR3-7b-L1L">
+                                <rect key="frame" x="0.0" y="20" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" id="Fv3-qm-YFg"/>
+                                    <constraint firstAttribute="width" constant="375" id="s58-9j-z5X"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WN6-5G-p4D">
+                                <rect key="frame" x="72.5" y="513.5" width="230" height="50"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="msm-kC-A1T"/>
+                                    <constraint firstAttribute="height" constant="50" id="zTw-Li-scK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Trafik İşaretlerini Test Et">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="testPhotoWithSender:" destination="hq1-XF-OaA" eventType="touchUpInside" id="YeM-nG-xs3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trafik İşaretlerini Denemek İçin Aşağıdaki Butona Basın" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RD-ti-MNW">
+                                <rect key="frame" x="14" y="470" width="347" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nz4-lk-3gE">
+                                <rect key="frame" x="187.5" y="426" width="0.0" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="RLL-on-O49"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11468" translatesAutoresizingMaskIntoConstraints="NO" id="vzK-gk-Ypo">
+                                <rect key="frame" x="0.0" y="20" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="7t7-UC-2Vk"/>
+                                    <constraint firstAttribute="height" constant="375" id="fHi-xS-58F"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="41P-Pt-XSC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Nz4-lk-3gE" firstAttribute="centerX" secondItem="GR3-7b-L1L" secondAttribute="centerX" id="3lJ-Fp-cMj"/>
+                            <constraint firstItem="WN6-5G-p4D" firstAttribute="top" secondItem="9RD-ti-MNW" secondAttribute="bottom" constant="24" id="FQA-g6-b14"/>
+                            <constraint firstItem="vzK-gk-Ypo" firstAttribute="leading" secondItem="41P-Pt-XSC" secondAttribute="leading" id="FVK-O0-NqW"/>
+                            <constraint firstItem="GR3-7b-L1L" firstAttribute="trailing" secondItem="41P-Pt-XSC" secondAttribute="trailing" id="GFP-u8-ckZ"/>
+                            <constraint firstItem="vzK-gk-Ypo" firstAttribute="trailing" secondItem="41P-Pt-XSC" secondAttribute="trailing" id="Hp1-xy-NZY"/>
+                            <constraint firstItem="vzK-gk-Ypo" firstAttribute="top" secondItem="41P-Pt-XSC" secondAttribute="top" constant="20" id="WIh-af-fx2"/>
+                            <constraint firstItem="GR3-7b-L1L" firstAttribute="leading" secondItem="41P-Pt-XSC" secondAttribute="leading" id="gqh-VZ-nTT"/>
+                            <constraint firstItem="Nz4-lk-3gE" firstAttribute="top" secondItem="GR3-7b-L1L" secondAttribute="bottom" constant="31" id="lKJ-p2-CkT"/>
+                            <constraint firstItem="WN6-5G-p4D" firstAttribute="centerX" secondItem="9RD-ti-MNW" secondAttribute="centerX" id="oLK-30-URI"/>
+                            <constraint firstItem="9RD-ti-MNW" firstAttribute="centerX" secondItem="Nz4-lk-3gE" secondAttribute="centerX" id="p4y-gd-yJQ"/>
+                            <constraint firstItem="9RD-ti-MNW" firstAttribute="top" secondItem="Nz4-lk-3gE" secondAttribute="bottom" constant="24" id="p5M-Z3-CHe"/>
+                            <constraint firstItem="GR3-7b-L1L" firstAttribute="top" secondItem="41P-Pt-XSC" secondAttribute="top" constant="20" id="rlL-Wz-7NT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstImage" destination="vzK-gk-Ypo" id="frN-J5-LoY"/>
+                        <outlet property="imageLabel" destination="Nz4-lk-3gE" id="Qg1-M0-f66"/>
+                        <outlet property="photoImageView" destination="GR3-7b-L1L" id="tAn-4m-SmX"/>
+                        <outlet property="testButton" destination="WN6-5G-p4D" id="JGM-9h-fOH"/>
+                        <outlet property="textLabel" destination="9RD-ti-MNW" id="tOm-Mi-eAS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Bj-uQ-Qcz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="11468" width="4500" height="4500"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
